@@ -41,3 +41,7 @@ gem 'spring',        group: :development
 gem 'mail_form'
 gem 'simple_form'
 gem 'devise'
+
+group :development, :test do
+gem 'foreman'
+end
